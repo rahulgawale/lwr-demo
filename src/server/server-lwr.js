@@ -1,9 +1,9 @@
-import createServer from './lwr.cjs';
+import createServer from "./lwr.cjs";
 
-const LWR_PORT = parseInt(process.env.LWR_PORT || '3001', 10);
+const LWR_PORT = parseInt(process.env.LWR_PORT || "3001", 10);
 
 const lwrServer = createServer({
-	serverMode: 'development' === process.env.NODE_ENV ? 'dev' : 'prod-compat',
+	serverMode: "development" === process.env.NODE_ENV ? "dev" : "prod-compat",
 	port: LWR_PORT,
 });
 

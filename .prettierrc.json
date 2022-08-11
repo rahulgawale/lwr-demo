@@ -2,17 +2,25 @@
 	"useTabs": true,
 	"tabWidth": 4,
 	"printWidth": 80,
-	"singleQuote": true,
 	"trailingComma": "es5",
 	"bracketSpacing": true,
 	"parenSpacing": true,
 	"semi": true,
 	"arrowParens": "always",
 	"htmlWhitespaceSensitivity": "ignore",
+	"endOfLine": "auto",
 	"overrides": [
 		{
 			"files": "*.html",
 			"options": { "parser": "lwc" }
 		}
-	]
+	],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"parser": "flow"
+			}
+		]
+	}
 }

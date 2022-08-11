@@ -37,3 +37,7 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+/src/assets/images/*
+/src/assets/icons/*
+/src/assets/styles/*
