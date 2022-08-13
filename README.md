@@ -2,6 +2,31 @@
 
 The **LWC Boilerplate** example contains the minimum code needed to get a simple Single Page Application (SPA) on LWR running.
 
+
+## System and Software requirements for Development
+
+### Linux Based Systems
+1. Node.js
+1. VS Code
+1. Yarn
+
+### Windows
+Please follow below steps for Windows
+1. Install Windows Subsystem For Linux (WSL) using the command `wsl --install`.
+1. [Install nvm, node.js, and npm in WSL](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm)
+1. Restart windows.
+1. Go to start menu and search for `Ubuntu On Windows` and open it. Please note that default distribution for WSL is Ubuntu, if you have a different one then open that.
+1. Now run Git clone command `git clone https://github.com/rahulgawale/lwr-demo.git`.
+1. Run command `cd lwr-demo`
+1. Run command `Code .` and it will open VS code with the project.
+1. Now you can run `yarn start`.
+
+### VS Code Exentions
+  1. Prettier
+  1. ESLint
+  1. GitHub Pull Requests and Issues
+  1. LWR Create For LWC Open Source (pre release) 
+
 ## Project Setup
 
 The directory structure looks like this:
