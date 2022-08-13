@@ -12,7 +12,7 @@ The **LWC Boilerplate** example contains the minimum code needed to get a simple
 
 ### Windows
 Please follow below steps for Windows
-1. Install Windows Subsystem For Linux (WSL) using the command `wsl --install`.
+1. Install Windows Subsystem For Linux (WSL) using the command `wsl --install` in power shell with admin access.
 1. [Install nvm, node.js, and npm in WSL](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm)
 1. Restart windows.
 1. Go to start menu and search for `Ubuntu On Windows` and open it. Please note that default distribution for WSL is Ubuntu, if you have a different one then open that.
